@@ -59,12 +59,12 @@
     "tokencover.settings.cover-workflow-confirm-no-cover.Hint": "When enabled, the confirmation will be presented when the cover calculation estimates the token has no cover.",
 
     "tokencover.settings.points-center": "コマの中心点のみ（1ポイント）",
-    "tokencover.settings.points-two": "Token front-facing corners (2 points)",
-    "tokencover.settings.points-three": "Token front-facing and center (3 points)",
-    "tokencover.settings.points-four": "Token corners (4 points)",
-    "tokencover.settings.points-five": "Token corners and center (5 points)",
+    "tokencover.settings.points-two": "コマの正面2隅（2ポイント）",
+    "tokencover.settings.points-three": "コマの正面2隅と中心点（3ポイント）",
+    "tokencover.settings.points-four": "コマの4隅（4ポイント）",
+    "tokencover.settings.points-five": "コマの4隅と中心点（5ポイント）",
     "tokencover.settings.points-eight": "Token midpoints and corners (8 points)",
-    "tokencover.settings.points-nine": "Token midpoints, corners, center (9 points)",
+    "tokencover.settings.points-nine": "Token midpoints, corners, center（9ポイント）",
 
     "tokencover.settings.los-algorithm.Name": "アルゴリズム",
     "tokencover.settings.los-algorithm.Hint": "How to test whether a target token has cover with respect to a viewing token.",
@@ -82,7 +82,7 @@
     "tokencover.settings.los-inset-viewer.Name": " Inset",
     "tokencover.settings.los-inset-viewer.Hint": "For viewer points other than the center, what percentage to inset the point from the token border towards the token center.",
 
-    "tokencover.settings.los-points-target.Name": "Points",
+    "tokencover.settings.los-points-target.Name": "ポイント",
     "tokencover.settings.los-points-target.Hint": "How many points on the target to test for cover from the viewer's line-of-sight.",
 
     "tokencover.settings.los-inset-target.Name": "Inset",
@@ -91,7 +91,7 @@
     "tokencover.settings.los-points-3d.Name": "3d points",
     "tokencover.settings.los-points-3d.Hint": "Test the top and bottom of the target token in addition to the points in the middle of the token vertically.",
 
-    "tokencover.settings.debug-cover.Name": "Debug Cover",
+    "tokencover.settings.debug-cover.Name": "遮蔽デバッグ",
     "tokencover.settings.debug-cover.Hint": "If enabled, will draw representation on the canvas of the cover between viewer and target(s). If Area3d is enabled, you must target a single token to make the debug window appear.",
 
     "tokencover.settings.button-foundry-default.Name": "Change settings to",
@@ -100,7 +100,7 @@
 
     "tokencover.settings.button-dnd5e-dmg.Name": "",
     "tokencover.settings.button-dnd5e-dmg.Label": "DND5e DMGにリセット",
-    "tokencover.settings.button-dnd5e-dmg.Notification": "Settings changed to D&D 5e",
+    "tokencover.settings.button-dnd5e-dmg.Notification": "D&D 5eに設定が変更されました",
 
     "tokencover.settings.prone-status-id.Name": "「伏せ状態」 Id",
     "tokencover.settings.prone-status-id.Hint": "String indicating the id for the token 'prone' status. If set, prone tokens will be considered half-height for all vision and cover calculations.",
@@ -111,10 +111,10 @@
     "tokencover.settings.prone-multiplier.Name": "伏せ倍数",
     "tokencover.settings.prone-multiplier.Hint": "What percentage of token height should be used for prone tokens. For example, if a token is 5 feet high, and the multiplier is set to 0.6, prone tokens would be considered 3 feet high. This affects the vision point for prone tokens as well as the shape used if prone tokens block vision.",
 
-    "tokencover.settings.vision-height-multiplier.Name": "Vision Height Multiplier",
-    "tokencover.settings.vision-height-multiplier.Hint": "What percentage of token height is its vision located? 0% means the very bottom; 100% (1) means very top.",
+    "tokencover.settings.vision-height-multiplier.Name": "視界高度倍数",
+    "tokencover.settings.vision-height-multiplier.Hint": "視界はトークンの何パーセントの高さに位置していますか？0%で一番下になります。100% (1)は一番上を意味します。",
 
-    "tokencover.settings.atv-settings-message.Name": "Prone / HP configuration",
+    "tokencover.settings.atv-settings-message.Name": "伏せ状態 / HP設定",
     "tokencover.settings.atv-settings-message.Hint": "When Alternative Token Visibility is active, the prone multiplier, vision height multiplier, prone status id, and token HP id use ATV's settings.",
 
     "tokencover.settings.button-pf2e.Label": "PF2eにリセット",

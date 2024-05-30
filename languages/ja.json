@@ -2,8 +2,8 @@
     "tokencover.name": "Alt. Token Cover",
     "tokencover.nameAbbr": "ATC",
 
-    "tokencover.cover-effect.percent-threshold.Name": "Percent threshold",
-    "tokencover.cover-effect.can-overlap.Name": "Can overlap",
+    "tokencover.cover-effect.percent-threshold.Name": "パーセント閾値",
+    "tokencover.cover-effect.can-overlap.Name": "上乗せ可能",
     "tokencover.cover-effect.include-walls.Name": "Walls block",
     "tokencover.cover-effect.include-tokens.Name": "Tokens block",
     "tokencover.cover-effect.priority.Name": "Priority",

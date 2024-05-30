@@ -78,6 +78,13 @@
       "path": "languages/en.json",
       "title": "Alternative Token Cover",
       "description": "Alternative token cover rules"
+    }.
+    {
+      "lang": "ja",
+      "name": "日本語",
+      "path": "languages/ja.json",
+      "title": "Alternative Token Cover",
+      "description": "コマの代替遮蔽ルール"
     }
   ],
   "url": "#{URL}#",

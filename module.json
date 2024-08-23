@@ -6,8 +6,8 @@
   "socket": "true",
   "manifestPlusVersion": "1.0.0",
   "compatibility": {
-    "minimum": "11.299",
-    "verified": "11.315"
+    "minimum": "12",
+    "verified": "12.327"
   },
   "authors": [
     {
@@ -71,6 +71,7 @@
       "system": "pf2e"
     }
   ],
+
   "languages": [
     {
       "lang": "en",
@@ -87,6 +88,13 @@
       "description": "コマの代替遮蔽ルール"
     }
   ],
+
+  "documentTypes": {
+    "RegionBehavior": {
+      "setCover": {}
+    }
+  },
+
   "url": "#{URL}#",
   "manifest": "#{MANIFEST}#",
   "download": "#{DOWNLOAD}#",

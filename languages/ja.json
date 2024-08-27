@@ -10,7 +10,7 @@
     "tokencover.cover-effect.priority.Hint": "優先度が大きいほど先にテストされます。「0」に設定して無視します。",
     "tokencover.cover-effect.live-tokens-block.Name": "生存中のコマ ブロック",
     "tokencover.cover-effect.dead-tokens-block.Name": "死亡したコマ ブロック",
-    "tokencover.cover-effect.dead-tokens-block.Hint": "See module settings to configure the attribute to use for determining token HP.",
+    "tokencover.cover-effect.dead-tokens-block.Hint": "コマのhpを決定する能力値を編集したい場合はMOD設定をご覧ください。",
     "tokencover.cover-effect.prone-tokens-block.Name": "伏せ状態のコマ ブロック",
     "tokencover.cover-effect.prone-tokens-block.Hint": "有効化すると、伏せ状態のコマは遮蔽を与えます（based on their height as multiplied by the prone multiplier. If neither dead nor live tokens grant cover, this does nothing. See module settings for the prone multiplier.",
 
@@ -129,10 +129,10 @@
     "tokencover.settings.button-documentation.Label": "ドキュメントを開く",
     "tokencover.settings.button-issue.Label": "問題を報告",
 
-    "tokencover.template.settings-config.tabs.los_viewer": "Viewer",
+    "tokencover.template.settings-config.tabs.los_viewer": "目視者",
     "tokencover.template.settings-config.tabs.los_target": "ターゲット",
-    "tokencover.template.settings-config.tabs.workflow": "Cover Workflow",
-    "tokencover.template.settings-config.tabs.other": "Cover Options",
+    "tokencover.template.settings-config.tabs.workflow": "遮蔽ワークフロー",
+    "tokencover.template.settings-config.tabs.other": "遮蔽オプション",
 
     "tokencover.settings.submenu.Name": "",
     "tokencover.settings.submenu.Label": "GM遮蔽設定",
@@ -149,16 +149,16 @@
     "tokencover.dnd5e.feats.cover.OptionThreeQuarters": "Ignore half and three-quarters cover.",
     "tokencover.dnd5e.feats.cover.OptionFull": "Ignore all cover.",
 
-    "tokencover.template.settings-config.viewer": "Viewing Token",
+    "tokencover.template.settings-config.viewer": "目視しているコマ",
     "tokencover.template.settings-config.viewerDescription": "Settings relevant to the token viewing/targeting another token that may have cover",
 
-    "tokencover.template.settings-config.target": "Target Token",
+    "tokencover.template.settings-config.target": "ターゲットのコマ",
     "tokencover.template.settings-config.targetDescription": "Settings relevant to the targeted token (the one for which cover would be applied).",
 
-    "tokencover.template.settings-config.workflow": "Cover Workflow",
+    "tokencover.template.settings-config.workflow": "遮蔽ワークフロー",
     "tokencover.template.settings-config.workflowDescription": "Settings to adjust how cover is determined during token movement and combat.",
 
-    "tokencover.template.settings-config.other": "Cover Options",
+    "tokencover.template.settings-config.other": "遮蔽オプション",
     "tokencover.template.settings-config.otherDescription": "Settings to adjust other cover rules and to set system-specific cover properties.",
 
     "tokencover.tokenconfig.maximum-cover.name": "Maximum Cover",

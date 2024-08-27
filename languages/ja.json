@@ -14,10 +14,10 @@
     "tokencover.cover-effect.prone-tokens-block.Name": "伏せ状態のコマ ブロック",
     "tokencover.cover-effect.prone-tokens-block.Hint": "有効化すると、伏せ状態のコマは遮蔽を与えます（based on their height as multiplied by the prone multiplier. If neither dead nor live tokens grant cover, this does nothing. See module settings for the prone multiplier.",
 
-    "tokencover.settings.never": "Never",
+    "tokencover.settings.never": "常に適用しない",
     "tokencover.settings.combat": "戦闘中",
     "tokencover.settings.combatant": "現在の戦闘参加者のみ",
-    "tokencover.settings.always": "常に",
+    "tokencover.settings.always": "常に適用",
     "tokencover.settings.attack": "攻撃中",
 
     "tokencover.settings.cover-workflow-confirm-user": "ユーザに確認",

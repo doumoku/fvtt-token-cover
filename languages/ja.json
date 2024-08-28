@@ -12,7 +12,7 @@
     "tokencover.cover-effect.dead-tokens-block.Name": "死亡したコマ ブロック",
     "tokencover.cover-effect.dead-tokens-block.Hint": "コマのhpを決定する能力値を編集したい場合はMOD設定をご覧ください。",
     "tokencover.cover-effect.prone-tokens-block.Name": "伏せ状態のコマ ブロック",
-    "tokencover.cover-effect.prone-tokens-block.Hint": "有効化すると、伏せ状態のコマは遮蔽を与えます（based on their height as multiplied by the prone multiplier. If neither dead nor live tokens grant cover, this does nothing. See module settings for the prone multiplier.",
+    "tokencover.cover-effect.prone-tokens-block.Hint": "有効化すると、伏せ状態のコマは遮蔽を与えます（それの高さを伏せ倍数で乗算した値をもとにします。死亡したコマと生存しているコマのどちらかが遮蔽を与えない限り、これは何もしません。モジュール設定から、伏せ倍数を確認してください。",
 
     "tokencover.settings.never": "常に適用しない",
     "tokencover.settings.combat": "戦闘中",
@@ -46,13 +46,13 @@
     "tokencover.settings.only-cover-icons.Name": "遮蔽アイコンのみ使う",
     "tokencover.settings.only-cover-icons.Hint": "When enabled, only cover icons will be displayed; no cover effects will be used. If you system is unsupported, try enabling this.",
 
-    "tokencover.settings.cover-chat-message.Name": "Display Cover in Chat",
+    "tokencover.settings.cover-chat-message.Name": "遮蔽をチャットに表示",
     "tokencover.settings.cover-chat-message.Hint": "When rolling an attack, display cover types for targets in the chat.",
 
     "tokencover.settings.cover-workflow-confirm.Name": "遮蔽の確認",
     "tokencover.settings.cover-workflow-confirm.Hint": "When an attack is made, should a dialog be presented to allow the user to confirm the cover calculation? This affects the underlying cover calculation. It also will affect Cover Types or Cover Effects, if these settings are enabled.",
 
-    "tokencover.settings.cover-workflow-confirm-change-only.Name": "Only Confirm on Change",
+    "tokencover.settings.cover-workflow-confirm-change-only.Name": "変更時のみ確認",
     "tokencover.settings.cover-workflow-confirm-change-only.Hint": "The confirmation dialog, if enabled, will only be presented if the cover type or effect(s) differ on the token than what has been calculated.",
 
     "tokencover.settings.cover-workflow-confirm-no-cover.Name": "Confirm No Cover",
@@ -94,9 +94,9 @@
     "tokencover.settings.debug-cover.Name": "遮蔽デバッグ",
     "tokencover.settings.debug-cover.Hint": "If enabled, will draw representation on the canvas of the cover between viewer and target(s). If Area3d is enabled, you must target a single token to make the debug window appear.",
 
-    "tokencover.settings.button-foundry-default.Name": "Change settings to",
-    "tokencover.settings.button-foundry-default.Label": "Reset to Foundry Defaults",
-    "tokencover.settings.button-foundry-default.Notification": "Settings changed to Foundry defaults",
+    "tokencover.settings.button-foundry-default.Name": "次に設定を変更：",
+    "tokencover.settings.button-foundry-default.Label": "Foundryの初期値にリセット",
+    "tokencover.settings.button-foundry-default.Notification": "Foundryの初期値に設定が変更されました",
 
     "tokencover.settings.button-dnd5e-dmg.Name": "",
     "tokencover.settings.button-dnd5e-dmg.Label": "DND5e DMGにリセット",

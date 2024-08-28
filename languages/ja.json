@@ -63,7 +63,7 @@
     "tokencover.settings.points-three": "コマの正面2隅と中心点（3ポイント）",
     "tokencover.settings.points-four": "コマの4隅（4ポイント）",
     "tokencover.settings.points-five": "コマの4隅と中心点（5ポイント）",
-    "tokencover.settings.points-eight": "Token midpoints and corners (8 points)",
+    "tokencover.settings.points-eight": "コマの中心点と4隅（8ポイント）",
     "tokencover.settings.points-nine": "Token midpoints, corners, center（9ポイント）",
 
     "tokencover.settings.los-algorithm.Name": "アルゴリズム",
@@ -103,13 +103,13 @@
     "tokencover.settings.button-dnd5e-dmg.Notification": "D&D 5eに設定が変更されました",
 
     "tokencover.settings.prone-status-id.Name": "「伏せ状態」 Id",
-    "tokencover.settings.prone-status-id.Hint": "String indicating the id for the token 'prone' status. If set, prone tokens will be considered half-height for all vision and cover calculations.",
+    "tokencover.settings.prone-status-id.Hint": "コマの「伏せ状態」のidを表す文字列です。設定した場合、伏せ状態のコマは視界と遮蔽の計算に際し半分の高さと換算されます。",
 
-    "tokencover.settings.token-hp-attribute.Name": "Token HP Attribute",
-    "tokencover.settings.token-hp-attribute.Hint": "String indicating where the hit points for a `token.actor` can be found. Required to use dead tokens for cover.",
+    "tokencover.settings.token-hp-attribute.Name": "コマのhp能力値",
+    "tokencover.settings.token-hp-attribute.Hint": "String indicating where the hit points for a `token.actor` can be found.死亡したコマを遮蔽として扱うために必要です。",
 
     "tokencover.settings.prone-multiplier.Name": "伏せ倍数",
-    "tokencover.settings.prone-multiplier.Hint": "What percentage of token height should be used for prone tokens. For example, if a token is 5 feet high, and the multiplier is set to 0.6, prone tokens would be considered 3 feet high. This affects the vision point for prone tokens as well as the shape used if prone tokens block vision.",
+    "tokencover.settings.prone-multiplier.Hint": "何パーセントのコマの身長が伏せ状態のコマとして扱われるかを設定します。例えば、コマの高さが5ftで、倍数が0.6なら、伏せ状態のコマは3ftの高さとして換算されます。これはThis affects the vision point for prone tokens as well as the shape used if prone tokens block vision.",
 
     "tokencover.settings.vision-height-multiplier.Name": "視界高度倍数",
     "tokencover.settings.vision-height-multiplier.Hint": "視界はトークンの何パーセントの高さに位置していますか？0%で一番下になります。100% (1)は一番上を意味します。",
@@ -136,18 +136,18 @@
 
     "tokencover.settings.submenu.Name": "",
     "tokencover.settings.submenu.Label": "GM遮蔽設定",
-    "tokencover.settings.submenu.title": "Alternative Token Cover Settings",
+    "tokencover.settings.submenu.title": "代替のコマ遮蔽設定",
 
-    "tokencover.DrawingConfiguration.LegendTitle": "Alternative Token Visibility",
+    "tokencover.DrawingConfiguration.LegendTitle": "代替のコマ視認性",
     "tokencover.DrawingConfiguration.isHole.Name": "Drawing is Hole",
     "tokencover.DrawingConfiguration.isHole.Hint": "For area algorithms, treat the space indicated by the drawing (including elevation) as a hole for tiles. Only applicable when Levels is active.",
 
-    "tokencover.dnd5e.feats.cover.Name": "Ignore certain levels of cover",
-    "tokencover.dnd5e.feats.cover.Hint": "Provided by feats and magic items.",
-    "tokencover.dnd5e.feats.cover.OptionNone": "Don't ignore any cover.",
-    "tokencover.dnd5e.feats.cover.OptionHalf": "Ignore half cover.",
-    "tokencover.dnd5e.feats.cover.OptionThreeQuarters": "Ignore half and three-quarters cover.",
-    "tokencover.dnd5e.feats.cover.OptionFull": "Ignore all cover.",
+    "tokencover.dnd5e.feats.cover.Name": "特定の遮蔽を無視",
+    "tokencover.dnd5e.feats.cover.Hint": "特技と魔法のアイテムにより提供。",
+    "tokencover.dnd5e.feats.cover.OptionNone": "遮蔽を無視しない。",
+    "tokencover.dnd5e.feats.cover.OptionHalf": "１／２遮蔽を無視。",
+    "tokencover.dnd5e.feats.cover.OptionThreeQuarters": "１／２及び３／４遮蔽を無視。",
+    "tokencover.dnd5e.feats.cover.OptionFull": "全ての遮蔽を無視。",
 
     "tokencover.template.settings-config.viewer": "目視しているコマ",
     "tokencover.template.settings-config.viewerDescription": "Settings relevant to the token viewing/targeting another token that may have cover",
@@ -161,7 +161,7 @@
     "tokencover.template.settings-config.other": "遮蔽オプション",
     "tokencover.template.settings-config.otherDescription": "Settings to adjust other cover rules and to set system-specific cover properties.",
 
-    "tokencover.tokenconfig.maximum-cover.name": "Maximum Cover",
+    "tokencover.tokenconfig.maximum-cover.name": "最大の遮蔽",
     "tokencover.tokenconfig.maximum-cover.hint": "Maximum cover provided by this token. Example: A swarm of bees might only provide half cover. A ghost may provide no cover. Does nothing if tokens do not grant cover (see module settings).",
 
     "tokencover.cover-rules-config.title": "Alt. Token Cover: Cover Rules",
@@ -187,7 +187,7 @@
     "tokencover.phrases.xCoverType": "{cover} 遮蔽タイプ",
     "tokencover.phrases.xCover": "{cover} 遮蔽",
 
-    "tokencover.cover.HalfToken": "半 (Token Only)",
+    "tokencover.cover.HalfToken": "半 (コマのみ)",
 
     "tokencover.cover.None": "遮蔽なし",
     "tokencover.cover.Low": "低遮蔽",
